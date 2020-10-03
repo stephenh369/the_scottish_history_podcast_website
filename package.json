@@ -1,0 +1,16 @@
+{
+  "name": "scottish_history_podcast_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "sass": "^1.26.11"
+  }
+}
