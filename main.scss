@@ -8,14 +8,18 @@ $theme-colors: (
   "info": #633478
 );
 
+$primary: #009dde;
+$secondary: #111B2C;
+$danger: coral;
 $info: #633478;
 
+$body-bg: $light;
 
 .border-b-link {
   border-bottom: 2px solid transparent !important;
   &:hover {
     border-bottom: 2px solid $info !important;
-    transition: border-color 0.25s;
+    transition: all .25s !important;
   }
 }
 

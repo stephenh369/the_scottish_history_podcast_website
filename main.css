@@ -4,8 +4,8 @@
 
 .border-b-link:hover {
   border-bottom: 2px solid #633478 !important;
-  -webkit-transition: border-color 0.25s;
-  transition: border-color 0.25s;
+  -webkit-transition: all .25s !important;
+  transition: all .25s !important;
 }
 
 /*!
@@ -71,7 +71,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #f8f9fa;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
