@@ -1,7 +1,23 @@
+@import './node_modules/bootstrap/scss/functions';
+@import './node_modules/bootstrap/scss/variables';
+
 $theme-colors: (
   "primary": #009dde,
   "secondary":#111B2C,
-  "danger": coral
+  "danger": coral,
+  "info": #633478
 );
 
+$info: #633478;
+
+
+.border-b-link {
+  border-bottom: 2px solid transparent !important;
+  &:hover {
+    border-bottom: 2px solid $info !important;
+    transition: border-color 0.25s;
+  }
+}
+
 @import './node_modules/bootstrap/scss/bootstrap.scss'
+
