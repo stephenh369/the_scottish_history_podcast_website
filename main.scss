@@ -23,5 +23,28 @@ $body-bg: $light;
   }
 }
 
+%fa-shared {
+  font-size: 2rem;
+}
+.fa {
+
+  &-itunes-note {
+    @extend %fa-shared;
+    color: #af52de;
+  }
+
+  &-spotify {
+    @extend %fa-shared;
+    color: #1DB954;
+  }
+
+  &-soundcloud {
+    @extend %fa-shared;
+    color: #FE5000;
+  }
+  
+}
+
+
 @import './node_modules/bootstrap/scss/bootstrap.scss'
 

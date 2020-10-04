@@ -8,6 +8,22 @@
   transition: all .25s !important;
 }
 
+.fa-itunes-note, .fa-spotify, .fa-soundcloud {
+  font-size: 2rem;
+}
+
+.fa-itunes-note {
+  color: #af52de;
+}
+
+.fa-spotify {
+  color: #1DB954;
+}
+
+.fa-soundcloud {
+  color: #FE5000;
+}
+
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
