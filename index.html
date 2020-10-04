@@ -15,11 +15,11 @@
 
     <div class="jumbotron jumbotron-fluid bg-secondary my-0">
       <div class="container">
-        <img src="./images/scot_history_pod_header_1.png" class="img-fluid" alt="Responsive image">
+        <img src="./images/scot_history_pod_header_1.png" class=" shadow img-fluid" alt="Responsive image">
       </div>
     </div>
     
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark flex-nowrap">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark flex-nowrap shadow-lg">
 
       <div class="container">
         <button class="navbar-toggler mx-3" data-toggle="collapse" data-target="#main-nav">
@@ -27,8 +27,8 @@
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="main-nav">
           <div class="navbar-nav mx-3">
-            <a class="nav-item nav-link" href="#"><span class="border-b-link p-2">About</span></a>
-            <a class="nav-item nav-link" href="#"><span class="border-b-link p-2">Contact</span></a>
+            <a class="nav-item nav-link" href="#about"><span class="border-b-link p-2">About</span></a>
+            <a class="nav-item nav-link" href="#contact"><span class="border-b-link p-2">Contact</span></a>
           </div>
         </div>
       </div>
@@ -43,13 +43,33 @@
  
     </nav>
 
-    <section class="container">
+    <section class="container" id="about">
+      <h4>About</h4>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Non sed, similique repellat aliquid autem incidunt expedita adipisci tenetur voluptatem cupiditate libero, 
         beatae aut iure quis, doloribus saepe maiores placeat! Quasi reiciendis, similique iure, 
         suscipit nisi tempore atque natus assumenda voluptates eveniet architecto perspiciatis minima eaque totam! Illo facere sed corporis.
       </p>
+    </section>
+
+    <section class="container" id="contact">
+      <h4>Contact</h4>
+      <form>
+        <div class="form-group">
+          <label for="input-name">Name</label>
+          <input type="text" class="form-control" id="input-name" placeholder="Enter name">
+        </div>
+        <div class="form-group">
+          <label for="input-email">Email address</label>
+          <input type="email" class="form-control" id="input-email" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="input-message">Message</label>
+          <textarea class="form-control" id="input-message" placeholder="Enter message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
     </section>
     
 
