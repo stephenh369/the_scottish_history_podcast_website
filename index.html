@@ -58,20 +58,23 @@
     <section class="container" id="contact">
       <div class="card card-body">
         <h4>Contact</h4>
-        <form>
+        <form action="POST" data-netlify="true">
           <div class="form-group">
             <label for="input-name">Name</label>
-            <input type="text" class="form-control" id="input-name" placeholder="Enter name">
+            <input type="text" name="name" class="form-control" id="input-name" placeholder="Enter name">
           </div>
           <div class="form-group">
             <label for="input-email">Email address</label>
-            <input type="email" class="form-control" id="input-email" placeholder="Enter email">
+            <input type="email" name="email" class="form-control" id="input-email" placeholder="Enter email">
           </div>
           <div class="form-group">
             <label for="input-message">Message</label>
-            <textarea class="form-control" id="input-message" placeholder="Enter message"></textarea>
+            <textarea class="form-control" name="message" id="input-message" placeholder="Enter message"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Send</button>
+          <div class="form-group">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+          <button type="submit" class="btn btn-primary" value="Send">Send</button>
         </form>
       </div>
     </section>
