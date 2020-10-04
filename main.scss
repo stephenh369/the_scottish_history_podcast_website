@@ -16,6 +16,11 @@ $info: #633478;
 
 $body-bg: $light;
 
+html {
+  height: auto !important;
+  padding-bottom: 500px !important;
+}
+
 .border-b-link {
   border-bottom: 2px solid transparent !important;
   &:hover {
