@@ -1,5 +1,6 @@
 @import './node_modules/bootstrap/scss/functions';
 @import './node_modules/bootstrap/scss/variables';
+@import './node_modules/bootstrap/scss/mixins';
 
 $theme-colors: (
   "primary": #009dde,
@@ -43,7 +44,28 @@ $body-bg: $light;
     @extend %fa-shared;
     color: #FE5000;
   }
-  
+  &-facebook {
+    @extend %fa-shared;
+    color: #4267B2;
+  }
+
+  &-twitter {
+    @extend %fa-shared;
+    color: #1DA1F2;
+  }
+
+  &-instagram {
+    @extend %fa-shared;
+    color: white;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 5px;
+    padding: 0 2px;
+  }
+
+  &-patreon {
+    @extend %fa-shared;
+    color: #FF424D;
+  }
 }
 
 

@@ -8,7 +8,7 @@
   transition: all .25s !important;
 }
 
-.fa-itunes-note, .fa-spotify, .fa-soundcloud {
+.fa-itunes-note, .fa-spotify, .fa-soundcloud, .fa-facebook, .fa-twitter, .fa-instagram, .fa-patreon {
   font-size: 2rem;
 }
 
@@ -23,6 +23,25 @@
 
 .fa-soundcloud {
   color: #FE5000;
+}
+
+.fa-facebook {
+  color: #4267B2;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+}
+
+.fa-instagram {
+  color: white;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  border-radius: 5px;
+  padding: 0 2px;
+}
+
+.fa-patreon {
+  color: #FF424D;
 }
 
 /*!
