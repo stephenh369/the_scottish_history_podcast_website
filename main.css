@@ -15,16 +15,16 @@ html {
 }
 
 #acast-ico {
-  height: 2.1rem;
-  width: 2rem;
+  height: 1.85rem;
+  width: 1.75rem;
 }
 
 .fa-itunes-note, .fa-spotify, .fa-soundcloud, .fa-facebook, .fa-twitter, .fa-instagram, .fa-patreon {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 .fa-itunes-note {
-  font-size: 2.1rem;
+  font-size: 1.85rem;
   color: #af52de;
 }
 
