@@ -19,6 +19,7 @@ $body-bg: $light;
 html {
   height: auto !important;
   padding-bottom: 500px !important;
+  scroll-behavior: smooth;
 }
 
 .border-b-link {
@@ -27,6 +28,12 @@ html {
     border-bottom: 2px solid $info !important;
     transition: all .25s !important;
   }
+}
+
+#acast-ico {
+  height: 2.1rem;
+  width: 2rem;
+
 }
 
 %fa-shared {

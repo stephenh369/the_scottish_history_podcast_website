@@ -1,6 +1,7 @@
 html {
   height: auto !important;
   padding-bottom: 500px !important;
+  scroll-behavior: smooth;
 }
 
 .border-b-link {
@@ -11,6 +12,11 @@ html {
   border-bottom: 2px solid #633478 !important;
   -webkit-transition: all .25s !important;
   transition: all .25s !important;
+}
+
+#acast-ico {
+  height: 2.1rem;
+  width: 2rem;
 }
 
 .fa-itunes-note, .fa-spotify, .fa-soundcloud, .fa-facebook, .fa-twitter, .fa-instagram, .fa-patreon {
