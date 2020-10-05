@@ -30,6 +30,15 @@ html {
   }
 }
 
+.anchor {
+  display: block;
+  margin-top: -70px;
+  height: 70px;
+  visibility: hidden;
+  position: relative;
+}
+
+
 #acast-ico {
   height: 1.85rem;
   width: 1.75rem;
