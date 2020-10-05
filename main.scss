@@ -89,6 +89,14 @@ html {
   }
 }
 
+@media (min-width: 576px) {
+
+  #main-nav-links {
+    border: 0px solid !important;
+  }
+
+}
+
 
 @import './node_modules/bootstrap/scss/bootstrap.scss'
 

@@ -63,6 +63,12 @@ html {
   color: #FF424D;
 }
 
+@media (min-width: 576px) {
+  #main-nav-links {
+    border: 0px solid !important;
+  }
+}
+
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
