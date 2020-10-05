@@ -61,10 +61,12 @@ html {
     color: #1DB954;
   }
 
-  &-soundcloud {
+  &-youtube {
     @extend %fa-shared;
-    color: #FE5000;
+    font-size: 1.85rem;
+    color: #FF0000;
   }
+
   &-facebook {
     @extend %fa-shared;
     color: #4267B2;

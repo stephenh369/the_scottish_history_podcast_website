@@ -27,7 +27,7 @@ html {
   width: 1.75rem;
 }
 
-.fa-itunes-note, .fa-spotify, .fa-soundcloud, .fa-facebook, .fa-twitter, .fa-instagram, .fa-patreon {
+.fa-itunes-note, .fa-spotify, .fa-youtube, .fa-facebook, .fa-twitter, .fa-instagram, .fa-patreon {
   font-size: 1.75rem;
 }
 
@@ -40,8 +40,9 @@ html {
   color: #1DB954;
 }
 
-.fa-soundcloud {
-  color: #FE5000;
+.fa-youtube {
+  font-size: 1.85rem;
+  color: #FF0000;
 }
 
 .fa-facebook {
