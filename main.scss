@@ -18,7 +18,6 @@ $body-bg: $light;
 
 html {
   height: auto !important;
-  padding-bottom: 500px !important;
   scroll-behavior: smooth;
 }
 
@@ -89,6 +88,10 @@ html {
     @extend %fa-shared;
     color: #FF424D;
   }
+}
+
+#main-footer {
+  margin-top: 500px !important;
 }
 
 @media (min-width: 576px) {
