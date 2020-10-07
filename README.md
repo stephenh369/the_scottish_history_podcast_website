@@ -1,5 +1,5 @@
 # the_scottish_history_podcast_website
-Website for "The Scottish History Podcast" by Owen Innes. Built using Bootstrap with SASS.
+Website for "The Scottish History Podcast" by Owen Innes. Built using Bootstrap with SASS and designed with a mobile-first focus. Check out the website and the podcast!
 
 Deployed with Netlify.
 
