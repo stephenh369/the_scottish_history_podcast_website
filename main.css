@@ -63,6 +63,13 @@ html {
   color: #FF424D;
 }
 
+#about-image {
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  max-height: 400px;
+}
+
 #subscribe-links-container {
   display: -ms-grid;
   display: grid;
@@ -77,6 +84,17 @@ html {
 @media (min-width: 576px) {
   #main-nav-links {
     border: 0px solid !important;
+  }
+  #about-content {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  #about-image {
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    max-height: 350px;
   }
 }
 
