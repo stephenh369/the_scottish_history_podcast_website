@@ -21,7 +21,7 @@ html {
   position: relative;
 }
 
-#acast-ico {
+#acast-ico, #google-podcasts-ico, #deezer-ico, #iheartradio-ico, #stitcher-ico {
   height: 1.85rem;
   width: 1.75rem;
 }
